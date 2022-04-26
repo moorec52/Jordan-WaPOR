@@ -85,7 +85,7 @@ For the purpose of mapping, the HydroRIVERS and HydroLAKES data were uploaded an
 
 ### Cropland Area
 
-Cropland area trends are not found to vary significantly, both across the study area as well as within individual pixels. The mean slope is 0.00, which corresponds to no change in cropland in the pixel. The confidence for this trend is very high, with an average R<sup>2</sup> value of 0.96. Therefore, cropland area is assumed to not change for the purpose of this study, and cropland area is represented by the 2020 FAO map in the future analysis.
+Cropland area trends are not found to vary significantly, both across the study area as well as within individual pixels. The mean slope is 0.00, which corresponds to no change in cropland in the pixel. The confidence for this trend is very high, with an average R<sup>2</sup> value of 0.96. 
   <p align="center">
     <img 
      src="https://github.com/moorec52/Jordan-WaPOR/blob/main/Images/CroplandSlope.PNG" 
@@ -101,7 +101,48 @@ Cropland area trends are not found to vary significantly, both across the study 
   
   <p align="center">Map of cropland area slope (change per year, where 0 means no change and magnitude 1 means change every year) and R<sup>2</sup> values over the Jordan River Basin for 2009-2020.</p>
   
+Due to little change in cropland over time, cropland area is assumed to not change for the purpose of this study, and cropland area is represented by the 2020 FAO map in the future analysis.
+  <p align="center">
+    <img
+      src="https://github.com/moorec52/Jordan-WaPOR/blob/main/Images/Cropland2020.PNG" 
+      alt="Map of the Jordan River Basin Cropland Area Trend Slope"
+      width=400px
+    >
+  </p>
+  
+  <p align="center">Map of cropland types in the Jordan River Basin in 2020.</p>
+  
+  
 ### Evapotranspiration and Infiltration
+
+<b>EIT<sub>a</sub> over the Jordan River Basin</b>
+
+The trends for evapotranspiration and interception over time vary based on location in the river basin. The mean slope is 3.5 millimeters per year, with a standard deviation of 9.0 millimeters per year, indicating that the river basin on average is increasing in evapotranspiration and interception over time. However, this varies based on location, as shown in the map below.
+  <p align="center">
+    <img 
+     src="https://github.com/moorec52/Jordan-WaPOR/blob/main/Images/EITaSlope.PNG" 
+     alt="Map of the Jordan River Basin EIT<sub>a</sub> Trend Slope"
+     width=400px
+    >
+  </p>
+  <p align="center">Map of change in EIT<sub>a</sub> (millimeters per year) over the Jordan River Basin for 2009-2020.</p>
+  
+The certianty of the trend equation also varies across pixels. The R<sup>2</sup> values range from 0-1, with a mean of 0.36 and a standard deviation of 0.26. The RMSE is also considered and is plotted below as percent error of average EIT<sub>a</sub> values over the time period. The square root of the RMSE is taken and divided by the average EIT<sub>a</sub> for each pixel. These values are relatively low, suggesting that this trend may still be applicable in some areas of the basin for certain applications depending on error sensitivity.
+  <p align="center">
+    <img 
+     src="https://github.com/moorec52/Jordan-WaPOR/blob/main/Images/EITaR2.PNG" 
+     alt="Map of the Jordan River Basin EIT<sub>a</sub> Trend R<sup>2</sup> values"
+     width=400px
+    >
+    <img 
+     src="https://github.com/moorec52/Jordan-WaPOR/blob/main/Images/EITaPercentError.PNG" 
+     alt="Map of the Jordan River Basin EIT<sub>a</sub> Trend Percent Error"
+     width=400px
+    >
+  </p>
+  <p align="center">Map of R<sup>2</sup> and percent error values for EIT<sub>a</sub> from 2009-2010.</p>
+ 
+<b>EIT<sub>a</sub> over Cropland</b>
 
 
 
