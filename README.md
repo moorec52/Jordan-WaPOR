@@ -83,6 +83,30 @@ For the purpose of mapping, the HydroRIVERS and HydroLAKES data were uploaded an
 
 ## Main Findings
 
+### Cropland Area
+
+Cropland area trends are not found to vary significantly, both across the study area as well as within individual pixels. The mean slope is 0.00, which corresponds to no change in cropland in the pixel. The confidence for this trend is very high, with an average R<sup>2</sup> value of 0.96. Therefore, cropland area is assumed to not change for the purpose of this study, and cropland area is represented by the 2020 FAO map in the future analysis.
+  <p align="center">
+    <img 
+     src="https://github.com/moorec52/Jordan-WaPOR/blob/main/Images/CroplandSlope.PNG" 
+     alt="Map of the Jordan River Basin Cropland Area Trend Slope"
+     width=400px
+    >
+    <img 
+     src="https://github.com/moorec52/Jordan-WaPOR/blob/main/Images/CroplandR2.PNG" 
+     alt="Map of the Jordan River Basin Cropland Area Trend Confidence"
+     width=400px
+    >
+  </p>
+  
+  <p align="center">Map of cropland area slope (change per year, where 0 means no change and magnitude 1 means change every year) and R<sup>2</sup> values over the Jordan River Basin for 2009-2020.</p>
+  
+### Evapotranspiration and Infiltration
+
+
+
+### Precipitation
+
 ## Additional Graphics
 
 # Discussion
