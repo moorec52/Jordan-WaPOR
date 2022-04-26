@@ -14,7 +14,7 @@ This project will assess how land use, precipitation, and evapotranspiration and
 ## Research Questions and Objectives
 The following research questions are posed:
 1. How have land use, precipitation, and evapotranspiration and interception changed from 2009-2020 over the Jordan River Basin?
-2. How might these historic trends predict future changes, especially for farms and cities?
+2. How might these historic trends predict future changes, especially for cropland?
 
 # Methods
 
@@ -29,7 +29,7 @@ ETI<sub>a</sub> is the sum of the soil evaporation, canopy transpiration, and ev
 LC is an experimental land cover dataset at the 100m scale using the WGS84 coordinate reference system (WaPO Land Cover Classification, 2020). The data are available for download in raster format for 2009-2020. The data is from MODIS using Copernicus training data. The land cover classification system was developed by the FAO and includes 25 possible classes.
 
 #### - Annual Precipitation (PCP)
-PCP is the total annual precipitation derived from summing daily data in units of millimeters (WaPOR Precipitation (Annual), 2021). This dataset is at the 5,000km scale using the WGS84 coordinate reference system and is available for download for the years 2009-2021, though daily or monthly data are updated approximately 5 days after observation. The source of the data is the Climate Hazards Group InfraRed Precipitation with Station (CHIRPS).
+PCP is the total annual precipitation derived from summing daily data in units of millimeters (WaPOR Precipitation (Annual), 2021). This dataset is at the 5,000km scale using the WGS84 coordinate reference system and is available for download for the years 2009-2021, though daily or monthly data are updated approximately 5 days after observation. The source of the data is the Climate Hazards Group InfraRed Precipitation with Station (CHIRPS). This data is at the continental scale and only the Jordan River Basin is considered here.
 
 ### Two datasets are also used from HydroSHEDS for the purpose of mapping the basin:
 
@@ -50,6 +50,26 @@ The Jordan River Basin spans five countries: west Jordan, east Israel, northeast
 </p>
 
 ## Analysis
+Maps for the years 2009-2020 (inclusive) were downloaded from the FAO data portal and uploaded into ArcGIS Pro. The following steps were completed in the analysis:
+
+1. Data processing
+    - A basin polygon was created based on the 2009 ETI<sub>a</sub> raster.
+    - Precipitation data was masked by the basin polygon.
+    - NoData values were converted to null for all rasters using SetNull.
+    - Data units were corrected using Raster Calculator for all rasters.
+    - The symbology layer file was uploaded for the Land Cover and edited for Layer 2 properties.
+
+2. Mosaic creation and initialization
+    - Five multidimensional rasters were created in the form of a mosaic: Precipitation, ETI<sub>a</sub>, Land Cover, Land Cover for Cropland (divided by 3 cropland classifications), and Cropland (all three cropland classifications combined with no disctinction for simplification).
+    - Mosaics were created using Create Mosaic Dataset.
+    - Rasters were added using Add Rasters to Mosaic Dataset.
+    - A field for "Year" was added for each raster in each mosaic, representing the Dimension. The ProductName field was updated based on data type for each raster in each mosaic, representing the Variable.
+    - Mosaic multidimensional info was established using Build Multidimensional Info for each mosaic where the Variable is the ProductName and the Dimension is the Year.
+
+3. Trend calculations
+    - Trends for each datset were calculated: Precipitation, ETI<sub>a</sub>, and Cropland using  Generate Trend.
+    - The output one-dimensional raster includes 5 bands across the basin area: Slope, Intercept, Root Mean Squared Error (RMSE), R<sup>2</sup> value, and the P-Value for each pixel.
+    - Precipitation and ETI<sub>a</sub> trends were masked by the 2020 cropland area and statistics are computed for each band.
 
 # Results
 
