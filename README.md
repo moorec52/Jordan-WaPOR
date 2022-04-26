@@ -71,6 +71,14 @@ Maps for the years 2009-2020 (inclusive) were downloaded from the FAO data porta
     - The output one-dimensional raster includes 5 bands across the basin area: Slope, Intercept, Root Mean Squared Error (RMSE), R<sup>2</sup> value, and the P-Value for each pixel.
     - Precipitation and ETI<sub>a</sub> trends were masked by the 2020 cropland area and statistics are computed for each band.
 
+For the purpose of mapping, the HydroRIVERS and HydroLAKES data were uploaded and used as follows:
+
+1. Data processing
+    - Both datasets were masked by the basin polygon described above.
+    - The HydroRIVERS dataset was filtered to streams with Strahler numbers of 4 or higher using Extract by Attributes.
+    - The Jordan River was manually selected and exported.
+    - The HydroLAKES dataset was manually filtered to select the Tiberias Lake and Dead Sea; these features were exported.
+
 # Results
 
 ## Main Findings
