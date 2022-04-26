@@ -44,7 +44,7 @@ The Jordan River Basin spans five countries: west Jordan, east Israel, northeast
 
 <p align="center">
   <img 
-   src="https://github.com/moorec52/Jordan-WaPOR/blob/main/BasinAreaPNG.PNG" 
+   src="https://github.com/moorec52/Jordan-WaPOR/blob/main/Images/BasinAreaPNG.PNG" 
    alt="Map of the Jordan River Basin and its Characteristics"
   >
 </p>
