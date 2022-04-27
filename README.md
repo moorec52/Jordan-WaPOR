@@ -40,7 +40,7 @@ The HydroRIVERS dataset is used to extract the Jordan River. The dataset is at 3
 HydroLAKES is used to extract the Tiberias Lake and Dead Sea along the Jordan River. The dataset is at varying resolution based on location and original data source and is downloadeable as a Geodatabase or Shapefile (HydroLAKES, 2016). The data used for this map are derived from the Lake polygons Shapefile.
 
 ## Description of Study Area
-The Jordan River Basin spans five countries: west Jordan, east Israel, northeast Egypt, southeast Lebanon, and southwest Syria. Though the Jordan River itself does not reach Egypt, its basin extends into the northeast corner of the country. The Jordan River has headwaters on Mount Hermon and empties into the Dead Sea; the river serves as a border between Lebanon and Syria, Israel and Jordan, and the West Bank and Jordan. The river also travels through the Tiberias Lake in Israel.
+The Jordan River Basin is 41,000km<sup>2</sup> and spans five countries: west Jordan, east Israel, northeast Egypt, southeast Lebanon, and southwest Syria. Though the Jordan River itself does not reach Egypt, its basin extends into the northeast corner of the country. The Jordan River has headwaters on Mount Hermon and empties into the Dead Sea; the river serves as a border between Lebanon and Syria, Israel and Jordan, and the West Bank and Jordan. The river also travels through the Tiberias Lake in Israel. 
 
 <p align="center">
   <img 
@@ -90,12 +90,12 @@ Cropland area trends are not found to vary significantly, both across the study 
     <img 
      src="https://github.com/moorec52/Jordan-WaPOR/blob/main/Images/CroplandSlope.PNG" 
      alt="Map of the Jordan River Basin Cropland Area Trend Slope"
-     width=400px
+     width=450px
     >
     <img 
      src="https://github.com/moorec52/Jordan-WaPOR/blob/main/Images/CroplandR2.PNG" 
      alt="Map of the Jordan River Basin Cropland Area Trend Confidence"
-     width=400px
+     width=450px
     >
   </p>
   
@@ -104,20 +104,25 @@ Cropland area trends are not found to vary significantly, both across the study 
 Due to little change in cropland over time, cropland area is assumed to not change for the purpose of this study, and cropland area is represented by the 2020 FAO map in the future analysis.
   <p align="center">
     <img
+      src="https://github.com/moorec52/Jordan-WaPOR/blob/main/Images/LC2020.PNG" 
+      alt="Map of the Jordan River Basin Cropland Area"
+      width=450px
+    >
+    <img
       src="https://github.com/moorec52/Jordan-WaPOR/blob/main/Images/Cropland2020.PNG" 
-      alt="Map of the Jordan River Basin Cropland Area Trend Slope"
-      width=400px
+      alt="Map of the Jordan River Basin Cropland Area"
+      width=450px
     >
   </p>
   
-  <p align="center">Map of cropland types in the Jordan River Basin in 2020.</p>
-  
+  <p align="center">Map of land cover and cropland types in the Jordan River Basin in 2020.</p>
   
 ### Evapotranspiration and Infiltration
 
-<b>EIT<sub>a</sub> over the Jordan River Basin</b>
+The trends for evapotranspiration and interception over time vary based on location in the river basin. The mean slope is 3.5 millimeters per year, with a standard deviation of 9.0 millimeters per year, indicating that the river basin on average is increasing in evapotranspiration and interception over time. However, this varies based on location, as shown in the map below. 
 
-The trends for evapotranspiration and interception over time vary based on location in the river basin. The mean slope is 3.5 millimeters per year, with a standard deviation of 9.0 millimeters per year, indicating that the river basin on average is increasing in evapotranspiration and interception over time. However, this varies based on location, as shown in the map below.
+The mean slope for cropland is 2.2 millimeters per year with a standard deviation of 11.8 millimeters per year, so on average the cropland ETI<sub>a</a> is changing slower compared to the rest of the basin.
+
   <p align="center">
     <img 
      src="https://github.com/moorec52/Jordan-WaPOR/blob/main/Images/EITaSlope.PNG" 
@@ -128,6 +133,9 @@ The trends for evapotranspiration and interception over time vary based on locat
   <p align="center">Map of change in EIT<sub>a</sub> (millimeters per year) over the Jordan River Basin for 2009-2020.</p>
   
 The certianty of the trend equation also varies across pixels. The R<sup>2</sup> values range from 0-1, with a mean of 0.36 and a standard deviation of 0.26. The RMSE is also considered and is plotted below as percent error of average EIT<sub>a</sub> values over the time period. The square root of the RMSE is taken and divided by the average EIT<sub>a</sub> for each pixel. These values are relatively low, suggesting that this trend may still be applicable in some areas of the basin for certain applications depending on error sensitivity.
+
+The R<sup>2</sup> mean value for cropland is lower than average, at 0.20 with a maximum of 0.98.
+
   <p align="center">
     <img 
      src="https://github.com/moorec52/Jordan-WaPOR/blob/main/Images/EITaR2.PNG" 
@@ -141,12 +149,10 @@ The certianty of the trend equation also varies across pixels. The R<sup>2</sup>
     >
   </p>
   <p align="center">Map of R<sup>2</sup> and percent error values for EIT<sub>a</sub> from 2009-2010.</p>
- 
-<b>EIT<sub>a</sub> over Cropland</b>
-
-
 
 ### Precipitation
+
+
 
 ## Additional Graphics
 
