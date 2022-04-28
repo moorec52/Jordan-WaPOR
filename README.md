@@ -211,9 +211,6 @@ For areas where error is low, these trends may be used to predict future water b
 
 Jordan's water crisis continues to escalate with climate change and increasing water usage. More work must be done to prepare for future water needs, but analyzing historical trends in land use, precipitation, and EIT<sub>a</sub> reveals the portions of the Jordan River Basin most at risk as well as may be used to better the health of the Jordan river, its wetlands, and its valley's crops. Rainfed crops in particular are at risk due to the water crisis and the FAO data shows that these are the areas of the river basin experiencing the greatest decreases in precipitation over 2009-2020. Jordan river valley farmers must prepare for these decreases in precipitation and find water-effective crops as well as alternative water sources in order to maintain their cropland in the future. 
 
-# Data Availability
-This repository houses the data used in this study. Raw data are available in addition to trend data and the produced maps. 
-
 # References
 
 FAO and IHE Delft. 2020. Water Accounting in the Jordan River Basin. FAO WaPOR water accounting reports. Rome. https://doi.org/10.4060/ca9181en.
