@@ -90,12 +90,12 @@ Cropland area trends are not found to vary significantly, both across the study 
     <img 
      src="https://github.com/moorec52/Jordan-WaPOR/blob/main/Images/CroplandSlope.PNG" 
      alt="Map of the Jordan River Basin Cropland Area Trend Slope"
-     width=450px
+     width=400px
     >
     <img 
      src="https://github.com/moorec52/Jordan-WaPOR/blob/main/Images/CroplandR2.PNG" 
      alt="Map of the Jordan River Basin Cropland Area Trend Confidence"
-     width=450px
+     width=400px
     >
   </p>
   
@@ -106,12 +106,12 @@ Due to little change in cropland over time, cropland area is assumed to not chan
     <img
       src="https://github.com/moorec52/Jordan-WaPOR/blob/main/Images/LC2020.PNG" 
       alt="Map of the Jordan River Basin Cropland Area"
-      width=450px
+      width=400px
     >
     <img
       src="https://github.com/moorec52/Jordan-WaPOR/blob/main/Images/Cropland2020.PNG" 
       alt="Map of the Jordan River Basin Cropland Area"
-      width=450px
+      width=400px
     >
   </p>
   
