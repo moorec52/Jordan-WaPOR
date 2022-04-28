@@ -203,9 +203,16 @@ The histograms for trend slopes for ETI<sub>a</sub> (top) and Precipitation (bot
 
 # Discussion
 
-Land use has not varied greatly in Jordan according to FAO classification systems. Precipitation and EIT<sub>a</sub> both have a low average increase per year, distributed differently across the basin.
+Land use has not varied greatly in Jordan according to FAO classification systems. Precipitation and EIT<sub>a</sub> both have a low average increase per year, distributed differently across the basin. The valley of the river basin in particular, where rainfed cropland is located, sees both an increase in EIT<sub>a</sub> and a decrease in precipitation. However, trend significance also varies across the basin. The trend function generates R<sup>2</sup> values, RMSE, and p-values for each pixel; each measure varies across the study area. While R<sup>2</sup> values are very low in some areas for both precipitation and EIT<sub>a</sub>, the normalized RMSE values indicate some usefulness of the trend data. More work analyzing possible sources of trend errors is needed to identify the cause for these trends, and an analysis based on land use alone may be necessary. However, the RMSE may be used to predict a range of values over a given pixel or study area.
 
-# Conclusion
+For areas where error is low, these trends may be used to predict future water balance data; this can be particularly useful for farmers with rainfed crops as well as irrigated land. Environmental protection and wetland restoration efforts may also benefit from these trends as well as city water planners. 
+
+# Conclusions
+
+Jordan's water crisis continues to escalate with climate change and increasing water usage. More work must be done to prepare for future water needs, but analyzing historical trends in land use, precipitation, and EIT<sub>a</sub> reveals the portions of the Jordan River Basin most at risk as well as may be used to better the health of the Jordan river, its wetlands, and its valley's crops. Rainfed crops in particular are at risk due to the water crisis and the FAO data shows that these are the areas of the river basin experiencing the greatest decreases in precipitation over 2009-2020. Jordan river valley farmers must prepare for these decreases in precipitation and find water-effective crops as well as alternative water sources in order to maintain their cropland in the future. 
+
+# Data Availability
+This repository houses the data used in this study. Raw data are available in addition to trend data and the produced maps. 
 
 # References
 
