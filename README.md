@@ -91,11 +91,13 @@ Cropland area trends are not found to vary significantly, both across the study 
      src="https://github.com/moorec52/Jordan-WaPOR/blob/main/Images/CroplandSlope.PNG" 
      alt="Map of the Jordan River Basin Cropland Area Trend Slope"
      width=400px
+     height=375px
     >
     <img 
      src="https://github.com/moorec52/Jordan-WaPOR/blob/main/Images/CroplandR2.PNG" 
      alt="Map of the Jordan River Basin Cropland Area Trend Confidence"
      width=400px
+     height=375px
     >
   </p>
   
@@ -107,17 +109,19 @@ Due to little change in cropland over time, cropland area is assumed to not chan
       src="https://github.com/moorec52/Jordan-WaPOR/blob/main/Images/LC2020.PNG" 
       alt="Map of the Jordan River Basin Cropland Area"
       width=400px
+      height=375px
     >
     <img
       src="https://github.com/moorec52/Jordan-WaPOR/blob/main/Images/Cropland2020.PNG" 
       alt="Map of the Jordan River Basin Cropland Area"
       width=400px
+      height=375px
     >
   </p>
   
   <p align="center">Map of land cover and cropland types in the Jordan River Basin in 2020.</p>
   
-### Evapotranspiration and Infiltration
+### Evapotranspiration and Interception
 
 The trends for evapotranspiration and interception over time vary based on location in the river basin. The mean slope is 3.5 millimeters per year, with a standard deviation of 9.0 millimeters per year, indicating that the river basin on average is increasing in evapotranspiration and interception over time. However, this varies based on location, as shown in the map below. 
 
@@ -141,22 +145,65 @@ The R<sup>2</sup> mean value for cropland is lower than average, at 0.20 with a 
      src="https://github.com/moorec52/Jordan-WaPOR/blob/main/Images/EITaR2.PNG" 
      alt="Map of the Jordan River Basin EIT<sub>a</sub> Trend R<sup>2</sup> values"
      width=400px
+     height=375px
     >
     <img 
      src="https://github.com/moorec52/Jordan-WaPOR/blob/main/Images/EITaPercentError.PNG" 
      alt="Map of the Jordan River Basin EIT<sub>a</sub> Trend Percent Error"
      width=400px
+     height=375px
     >
   </p>
   <p align="center">Map of R<sup>2</sup> and percent error values for EIT<sub>a</sub> from 2009-2010.</p>
 
 ### Precipitation
 
+On average, precipitation increases by 2.9 mm/year over the Jordan River Valley; this average is lower for cropland at less than 1.2 mm/year. The valley near the Jordan River as well as the northeast corner of the river basin are most impacted by decreased precipitation, which is where many rainfed crops are located. 
 
+  <p align="center">
+    <img 
+     src="https://github.com/moorec52/Jordan-WaPOR/blob/main/Images/PrecipitationSlope.PNG" 
+     alt="Map of the Jordan River Basin Precipitation Trend Slope"
+     width=400px
+    >
+  </p>
+  <p align="center">Map of change in precipitation (millimeters per year) over the Jordan River Basin for 2009-2020.</p>
+  
+R<sup>2</sup> values vary over the study area, with a maximum of 0.7; however, Root Mean Square Errors remain relatively low compared to the magnitude of precipitation. 
+  
+  <p align="center">
+    <img 
+     src="https://github.com/moorec52/Jordan-WaPOR/blob/main/Images/PrecipitationR2.PNG" 
+     alt="Map of the Jordan River Basin Precipitation Trend R<sup>2</sup> values"
+     width=400px
+     height=375px
+    >
+    <img 
+     src="https://github.com/moorec52/Jordan-WaPOR/blob/main/Images/PrecipitationPercentError.PNG" 
+     alt="Map of the Jordan River Basin Precipitation> Trend Percent Error"
+     width=400px
+     height=375px
+    >
+  </p>
+  <p align="center">Map of R<sup>2</sup> and percent error values for Precipitation from 2009-2010.</p>
 
 ## Additional Graphics
 
+The histograms for trend slopes for ETI<sub>a</sub> (top) and Precipitation (bottom) are shown below. 
+  <p align="center">
+    <img 
+     src="https://github.com/moorec52/Jordan-WaPOR/blob/main/Images/EITaSlopeHistogram.PNG" 
+     alt="Histogram of EITa trend slope values"
+    >
+    <img 
+     src="https://github.com/moorec52/Jordan-WaPOR/blob/main/Images/PrecipitationSlopeHistogram.PNG" 
+     alt="Histogram of Precipitation trend slope values"
+    >
+  </p>
+
 # Discussion
+
+Land use has not varied greatly in Jordan according to FAO classification systems. Precipitation and EIT<sub>a</sub> both have a low average increase per year, distributed differently across the basin.
 
 # Conclusion
 
